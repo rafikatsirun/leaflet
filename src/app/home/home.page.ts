@@ -42,8 +42,8 @@ export class HomePage {
     L.control.layers(basemaps).addTo(this.map);
 
     const marker = L.circle([-7.7563575321289076, 110.6257198088771], 150, {
-      color: 'red',
-      fillColor: 'red'
+      color: 'blue',
+      fillColor: 'blue'
     });
     
     const popup = L.popup()
